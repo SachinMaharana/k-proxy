@@ -8,5 +8,5 @@ Can be used as an ambassador container amid a main container to talk to API Serv
 Authentication etc. with trasparent security.
 
 ```
-docker pull sachinnicky/k-proxy:1.0.3
+docker pull sachinnicky/k-proxy:1.0.5
 ```
