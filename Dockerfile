@@ -7,6 +7,6 @@ RUN apk update \
  && rm -rf kubernetes \
  && rm -f kubernetes-client-linux-amd64.tar.gz
 
-ADD kubectl-proxy.sh /kubectl-proxy.sh
+ADD k-proxy.sh /k-proxy.sh
 
-ENTRYPOINT /kubectl-proxy.sh
+ENTRYPOINT /k-proxy.sh
